@@ -1,0 +1,78 @@
+html {
+	background: rgb(122,192,67);
+	font: normal 16px 'Roboto', sans-serif;
+	margin: 0 auto 0 auto;
+	margin-bottom: 0;
+	margin-top: 0;
+	text-align: center;
+	width: 90%;
+}
+
+h1,
+h2,
+header,
+footer {
+	background: white;
+	border: 5px outset silver;
+	color: navy;
+	font: bold 12px 'PT Serif', serif;
+	margin: 10px;
+	text-align: center;
+}
+
+h1 {
+	font: bold 24px 'PT Serif', serif;
+	text-shadow: 2px 2px 5px silver;
+}
+
+a {
+	color: forestGreen;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+img {
+	border: 5px outset silver;
+}
+
+ul {
+	list-style-image: url(/images/icons/icon17.png);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+	border: 5px solid black;
+	font: normal 11px 'Roboto', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	width: 300px;
+}
+
+tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+	background-color: #d6d6d6;
+}
+
+th,
+td {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+th {
+    background-color: navy;
+    color: white;
+}
